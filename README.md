@@ -6,12 +6,15 @@
     * AzureRM Module installed/loaded
 ---
 ### Setup your environment
-1. Install AzureRM powershell module
-    * https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-5.6.0
-    * `Install-Module -Name AzureRM -AllowClobber` & `Import-Module -Name AzureRM`
+1. Install AzureRM powershell module (If you already have it installed, skip to the next step.)
+    * Documentation: https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-5.6.0
+	* Open up PowerShell ISE or PowerShell and run the following:
+		* `Install-Module -Name AzureRM -AllowClobber` & `Import-Module -Name AzureRM`
 2. Login to your Azure Subscription
     * If you don't have an Azure account, sign up for free here: https://azure.microsoft.com/en-us/free/
     * And then from PowerShell run: `Connect-AzureRmAccount`
+	* If you you have multiple subcriptions, you will need to select the one you want to use:
+		* `Select-AzureRmSubscription`
 3. Clone this repository
     * `git clone https://github.com/jeffgebhardt/powershell-arm-demo`
     * Change directories to the root of the repository
