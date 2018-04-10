@@ -1,9 +1,13 @@
-# Azure ARM template Deployment via PowerShell
+# Deploy an Azure ARM Template with PowerShell
+
+### Youtube Video Tutorial
+* https://youtu.be/SlDzjeDdLoA
 
 ### Requirements
 * Azure Subscription
 * Windows Powershell
     * AzureRM Module installed/loaded
+* Text Editor
 ---
 ### Setup your environment
 1. Install AzureRM powershell module (If you already have it installed, skip to the next step.)
